@@ -1,33 +1,131 @@
-.App {
+/*HEADLINE COMPONENT*/
+
+.headline{
+  margin:auto;
+  text-align: center;
+}
+.logo{
+  width:70px;
+  height:90px;
+  /* background-color: green; */
+  /* background-image: url("http://worldartsme.com/?module=images&act=download&url=leaf-free-clipart-1.jpg"); */
+  display:inline-block;
+  margin-right:30px;
+}
+
+#leaf {
+  width: 70px;
+  height: 90px;
+  transform: rotate(10deg);
+}
+
+.headline h1{
+  display:inline-block;
+  font-size: 4em;
+}
+
+/*INPUT COMPONENT*/
+
+.inputComp{
+  margin: auto;
+  text-align: center;
+  height:130px;
+}
+.inputComp input{
+  margin-top:40px;
+  font-size: 2em;
+  margin-right: 10px;
+}
+.inputComp button{
+  margin-top:40px;
+  font-size: 2em;
+  background-color: green;
+}
+
+.inputPledge{
+  margin: auto;
+  text-align: center;
+  height:130px;
+}
+.inputPledge input{
+  margin-top:40px;
+  font-size: 2em;
+  margin-right: 10px;
+}
+.inputPledge button{
+  margin-top:40px;
+  font-size: 2em;
+  background-color: green;
+}
+
+/*DISPLAY COMPONENT*/
+
+.display{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 660px;
+  margin: auto;
+  margin-top:0px;
+}
+
+.display .box{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  /* background-color: green; */
+  background-image: url("images/postit.png");
+  background-size: contain;
+  margin:10px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.display .box p{
+  /* background-color: white; */
+  padding: 0 6px;
+  margin-top: 0px;
+  display: inline;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+#submitbutton {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+#center {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#description {
+  width: 100%;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/*this next part is just for us to see the component better while*/
+/*buidling it*/
+
+/* .headline{
+  outline: 1px lightgrey solid;
+  outline-offset:-20px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputComp{
+  outline: 1px lightgrey solid;
+  outline-offset:-20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.display{
+  outline: 1px lightgrey solid;
+  outline-offset:30px;
+} */
